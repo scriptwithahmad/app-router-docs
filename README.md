@@ -26,6 +26,10 @@ Nested Layouts:
 if you add specific layout you can create a layout file in specific file where you add nested layout 
 i'm creating nested layout in my products file just adding layout file etc.
 
+# Commit 12
+Route Group Layout:
+it's works like as route group
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
