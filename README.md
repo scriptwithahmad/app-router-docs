@@ -18,6 +18,8 @@ Learn About Private Routes in Next JS
 Route Groups: 
 if you have authtication files like login, register or forgot password file then you just create your routes under the auth file or some other name that you choose, and then you can access that routes "localhost:3000/auth/login" if you have auth file also login route. 
 But, in Route Groups, you can wrap your file name "auth" to "(auth)" then you can access login routes like "localhost:3000/login", no loger need to add "auth/login"
+# commit 10
+create a layout file if you render some component on all your file route files. we can add "Navbar" and "Footer" to added on all routes
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
