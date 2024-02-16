@@ -20,6 +20,12 @@ if you have authtication files like login, register or forgot password file then
 But, in Route Groups, you can wrap your file name "auth" to "(auth)" then you can access login routes like "localhost:3000/login", no loger need to add "auth/login"
 # commit 10
 create a layout file if you render some component on all your file route files. we can add "Navbar" and "Footer" to added on all routes
+
+# Commit 11
+Nested Layouts:
+if you add specific layout you can create a layout file in specific file where you add nested layout 
+i'm creating nested layout in my products file just adding layout file etc.
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
