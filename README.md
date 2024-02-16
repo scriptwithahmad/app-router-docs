@@ -14,6 +14,10 @@ pnpm dev
 bun dev
 # or
 Learn About Private Routes in Next JS
+# commit 9
+Route Groups: 
+if you have authtication files like login, register or forgot password file then you just create your routes under the auth file or some other name that you choose, and then you can access that routes "localhost:3000/auth/login" if you have auth file also login route. 
+But, in Route Groups, you can wrap your file name "auth" to "(auth)" then you can access login routes like "localhost:3000/login", no loger need to add "auth/login"
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
