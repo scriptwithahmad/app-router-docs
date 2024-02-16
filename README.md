@@ -12,6 +12,8 @@ yarn dev
 pnpm dev
 # or
 bun dev
+# or
+Learn About Private Routes in Next JS
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
