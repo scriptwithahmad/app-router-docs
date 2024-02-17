@@ -15,7 +15,18 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={sans.className}>{children}</body>
+      <body className={inter.className}>
+        {/* Navbar ----- */}
+        <nav className="bg-blue-100">
+          <h2>Navbar</h2>
+        </nav>
+        {/* Children that comming from home file means page.js root file */}
+        {children}
+        {/* Footer ----- */}
+        <footer>
+          <h2 className="bg-blue-100">Footer</h2>
+        </footer>
+      </body>
     </html>
   );
 }
