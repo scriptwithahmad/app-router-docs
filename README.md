@@ -30,6 +30,10 @@ i'm creating nested layout in my products file just adding layout file etc.
 Route Group Layout:
 it's works like as route group
 
+# Commit 15
+Parallel Routes
+Split a single layout into various slots. means you can create your route name "@user", "@revinue", "@notifications" like that and then create a layout file for getting children and route that we define in our spcific name of main route means "dashboard" and it's slot are "user, revinue and notification" in our layout file and then we arange all our slots in layout. and create a layout that you want
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
